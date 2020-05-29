@@ -7,3 +7,4 @@
 # Added Data Types And Variables More Exercises 29/05/2020
 # Added Mid Exam 2 November 2019 Group 1 29/05/2020
 # Added Mid Exam 2 November 2019 Group 2 29/05/2020
+# Added Mid Exam 29 February 2020 Group 1 29/05/2020
