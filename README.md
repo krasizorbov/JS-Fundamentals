@@ -16,3 +16,4 @@
 # Added Mid Exam Retake 6 August 2019 30/05/2020
 # Added Arrays Lab 03/06/2020
 # Added Arrays Exrcises 04/06/2020
+# Added Arrays More Exrcises 05/06/2020
