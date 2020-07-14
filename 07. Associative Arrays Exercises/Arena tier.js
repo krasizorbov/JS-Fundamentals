@@ -65,7 +65,7 @@ function arenaTier(input = []) {
   for (let i = 0; i < output.length; i++) {
     console.log(`${output[i][0]}: ${output[i][1]} skill`);
     let ss = [...Object.entries(result[output[i][0]])];
-    for (const s of ss.sort((a, b) => b[1] - a[1])) {
+    for (const s of ss.sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))) {
       console.log(`- ${s[0]} <!> ${s[1]}`);
     }
   }
