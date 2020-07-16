@@ -3,13 +3,11 @@ function modernTimes(input) {
   function isValid(word) {
     word = word.toUpperCase();
     for (let i = 0; i < word.length; i++) {
-      let valid = true;
-      if (word[i].charCodeAt(i) < 65 || word[i].charCodeAt(i) > 90) {
-        valid = false;
+      if (word[i].charCodeAt(0) < 65 || word[i].charCodeAt(0) > 90) {
         return false;
       }
-      return true;
     }
+      return true;
   }
   for (let i = 0; i < result.length; i++) {
     if (
